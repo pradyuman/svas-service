@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package svas.proto;
+
+message Status {
+  uint64 timestamp = 1;
+  bool left_window_up = 2;
+  bool left_window_down = 3;
+  bool right_window_up = 4;
+  bool right_window_down = 5;
+  bool left_door_locked = 6;
+  bool right_door_locked = 7;
+  bool trunk_open = 8;
+  bool hazard_on = 9;
+  bool popup_on = 10;
+  bool horn_on = 11;
+  bool horn_strobe = 12;
+  bool mc_ac_on = 13;
+  bool mc_fan_on = 14;
+  bool mc_accessory_on = 15;
+  bool car_accessory_on = 16;
+  bool mc_ig1_on = 17;
+  bool car_ig1_on = 18;
+  bool mc_ig2_on = 19;
+  bool car_ig2_on = 20;
+  bool brake_switch = 21;
+  bool clutch_switch = 22;
+  bool parking_brake = 23;
+  bool in_reverse = 24;
+  bool in_neutral = 25;
+  bool engine_running = 26;
+  bool bluetooth_connected = 27;
+  bool car_started = 28;
+  bool aux_input = 29;
+}

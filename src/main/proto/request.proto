@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package svas.proto;
+
+message Request {
+  bool left_window_up = 1;
+  bool left_window_down = 2;
+  bool right_window_up = 3;
+  bool right_window_down = 4;
+  bool left_door_lock = 5;
+  bool right_door_lock = 6;
+  bool trunk_open = 7;
+  bool hazard_on = 8;
+  bool popup_on = 9;
+  bool horn_on = 10;
+  bool horn_strobe = 11;
+  bool ac_on = 12;
+  bool fan_on = 13;
+  bool accessory_on = 14;
+  bool ig1_on = 15;
+  bool ig2_on = 16;
+  bool start = 17;
+  bool burst_data = 18;
+}
