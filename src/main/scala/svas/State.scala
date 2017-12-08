@@ -68,7 +68,7 @@ class State(redis: RedisClient) {
         popupOn = r.popupOn,
         hornOn = r.hornOn,
         hornStrobe = r.hornStrobe,
-        mcAcOn = r.acOn,
+        mcAcOn = r.mcAcOn,
         mcFanOn = r.fanOn,
         mcAccessoryOn = r.accessoryOn,
         mcIg1On = r.ig1On,

@@ -19,7 +19,7 @@ message Request {
   bool horn_on = 14;
   bool horn_off = 15;
   bool horn_strobe = 16;
-  bool ac_on = 17;
+  bool mc_ac_on = 17;
   bool ac_off = 18;
   bool fan_on = 19;
   bool fan_off = 20;
